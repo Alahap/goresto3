@@ -1,0 +1,43 @@
+{
+    "env": {
+        "browser": true,
+        "es2021": true,
+        "node": true,
+        "jasmine": true,
+        "codeceptjs/codeceptjs": true
+    },
+    "extends": [
+        "airbnb-base",
+        "plugin:codeceptjs/recommended"
+    ],
+    "parserOptions": {
+        "ecmaVersion": 12,
+        "sourceType": "module"
+    },
+    "rules": {
+        "linebreak-style": 0,
+        "no-unused-expressions": "off",
+        "no-console": "off",
+        "no-sequences": "off",
+        "lines-between-class-members": "off",
+        "indent": 0,
+        "no-underscore-dangle": "off",
+        "no-restricted-globals": "off",
+        "import/no-extraneous-dependencies": "off",
+        "no-alert": "off",
+        "no-trailing-spaces": "off",
+        "no-undef": "off",
+        "no-return-assign": "off",
+        "class-methods-use-this": 0,
+        "no-new": 0,
+        "no-prototype-builtins": "off",
+        "eol-last": "off",
+        "consistent-return": "off",
+        "import/prefer-default-export": "off",
+        "comma-dangle": "off",
+        "padded-blocks": "off",
+        "prefer-destructuring": "off",
+        "no-plusplus": "off"
+    },
+    "plugins": ["jasmine", "codeceptjs"]
+}
